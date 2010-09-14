@@ -2,11 +2,11 @@
 
 A command-line tool (CLI) written in JS for Node.js that evaluates a given query on a given JSON string or the standard input.
 
-The idea came from repetative tasks on the shell to use curl/wget to retrieve JSON objects and evaluate them using a query. 
+The idea came from repetitive tasks on the shell to use *curl*/*wget* to retrieve JSON objects and evaluate them using a query. 
 
-There is another implementation called jsawk that uses the "awk" CLI: http://github.com/micha/jsawk
+There is another implementation called [jsawk](http://github.com/micha/jsawk) that uses the *awk*, *SpiderMonkey*, and your temp directory.
 
-Maybe a Node.js project will make its way out of this to consolidate curl/wget and the JSON query part to something similar to TTY: http://github.com/htty/htty or resty: http://github.com/micha/resty (but purely Node.js, no ruby).
+Maybe a Node.js project will make its way out of this to consolidate *curl*/*wget* and the JSON query part to something similar to [hTTY](http://github.com/htty/htty) or [resty](http://github.com/micha/resty) (but purely Node.js, no ruby).
 
 ## Examples
 
