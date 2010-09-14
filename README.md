@@ -12,13 +12,13 @@ Maybe a Node.js project will make its way out of this to consolidate curl/wget a
 
 JSON string given:
 
-  $ json-query 'foo' '{"foo": "bar"}'
-  bar
+    $ json-query 'foo' '{"foo": "bar"}'
+    bar
 
 Read from standard input:
 
-  $ echo '{"foo": "bar"}' | json-query 'foo'
-  bar
+    $ echo '{"foo": "bar"}' | json-query 'foo'
+    bar
 
 ## Requirements
 
@@ -28,24 +28,24 @@ Read from standard input:
 
 If you have no instance of Node.js installed, install it first:
 
-  $ sudo apt-get install nodejs
+    $ sudo apt-get install nodejs
   
 or 
 
-  % brew install node
+    % brew install node
 
 Then download this script, make it executable and move it in a path your OS will find it:
 
-  $ curl http://github.com/djui/json-query/raw/master/json-query > json-query
-  $ chmod u+x json-query && mv json-query /usr/local/bin/
+    $ curl http://github.com/djui/json-query/raw/master/json-query > json-query
+    $ chmod u+x json-query && mv json-query /usr/local/bin/
 
 ## Usage
 
-   Usage: json-query [OPTION]... QUERY [JSON]
-  Evaluate the QUERY on a JSON object or standard input.
-  Example: json-query 'foo' '{"foo": "bar"}'
+    Usage: json-query [OPTION]... QUERY [JSON]
+    Evaluate the QUERY on a JSON object or standard input.
+    Example: json-query 'foo' '{"foo": "bar"}'
   
-    -h, --help     Shows this usage screen
+      -h, --help     Shows this usage screen
 
 ## Authors
 
