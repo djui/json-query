@@ -41,7 +41,7 @@ Then download this script, make it executable and move it in a path your OS will
 
 ## Usage
 
-  Usage: json-query [OPTION]... QUERY [JSON]
+   Usage: json-query [OPTION]... QUERY [JSON]
   Evaluate the QUERY on a JSON object or standard input.
   Example: json-query 'foo' '{"foo": "bar"}'
   
