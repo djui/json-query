@@ -1,10 +1,10 @@
 # json-query
 
-A command-line tool (CLI) written in JS for Node.js that evaluates a given query on a given JSON string or the standard input.
+A commandline tool (CLI) written in JS for Node.js that evaluates a given query on a given JSON string or the standard input.
 
 The idea came from repetitive tasks on the shell to use *curl*/*wget* to retrieve JSON objects and evaluate them using a query. 
 
-There is another implementation called [jsawk](http://github.com/micha/jsawk) that uses the *awk*, *SpiderMonkey*, and your temp directory.
+There is another implementation called [jsawk](http://github.com/micha/jsawk) that uses *awk*, *SpiderMonkey*, and your temp directory.
 
 Maybe a Node.js project will make its way out of this to consolidate *curl*/*wget* and the JSON query part to something similar to [hTTY](http://github.com/htty/htty) or [resty](http://github.com/micha/resty) (but purely Node.js, no ruby).
 
@@ -22,7 +22,7 @@ Read from standard input:
 
 ## Requirements
 
-- Node.js (>= 2.0.0)
+- Node.js (>= 0.1.100)
 
 ## Install
 
@@ -49,9 +49,9 @@ Then download this script, make it executable and move it in a path your OS will
 
 ## Authors
 
-- Uwe Dauernheim, @uwe_ uwe@dauernheim.net http://djui.de
+- Uwe Dauernheim
 
 ## Copyrights & Credits
 
-- Jason E. Smith 2008 Licensed under the Apache License, Version 2.0 (the "License")
+- Jason E. Smith 2008 APL
 - Kris Zyp from SitePen for the dojox.json.query module
