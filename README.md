@@ -36,7 +36,7 @@ or
 
 Then download this script, make it executable and move it in a path your OS will find it:
 
-    $ curl http://github.com/djui/json-query/raw/master/json-query > json-query
+    $ curl https://raw.githubusercontent.com/djui/json-query/master/json-query > json-query
     $ chmod u+x json-query && mv json-query /usr/local/bin/
 
 ## Usage
